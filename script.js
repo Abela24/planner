@@ -42,4 +42,39 @@ $("#hour-4 .description").val(localStorage.getItem("hour-4"))
 console.log (localStorage.getItem("hour-5"))
 $("#hour-5 .description").val(localStorage.getItem("hour-5")) 
 
-  });
+  
+
+
+
+
+
+});
+  const rows = document.getElementsByClassName("row");
+var currentHour = dayjs().format("H");
+console.log (currentHour)
+
+Array.from(rows).forEach(row => {
+  let
+    rowIdString = row.id,
+    rowHour;
+  if (rowIdString) {
+    rowHour = parseInt(rowIdString);
+    console.log (rowHour)
+  }
+  if (rowHour) {
+    // Compares row id to current hour and sets color accordingly
+    //var textarea = rowHour.querySelectorAll("textarea")
+    //console.log (textarea)
+    if (currentHour == rowHour) {
+      setColor(row, "red");
+    } else if (currentHour < rowHour) {
+      setColor(row, "green");
+    } else if (currentHour > rowHour) {
+      setColor(row, "lightgrey");
+    } 
+  }
+});
+
+function setColor(element, color) {
+  element.style.backgroundColor = color;
+} 
