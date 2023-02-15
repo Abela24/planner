@@ -15,32 +15,32 @@ $(document).ready(function(){
 
 
 //connected to local storage by hour starting at hour-9 till 5 by using get item
-console.log (localStorage.getItem("hour-9"))
-$("#hour-9 .description").val(localStorage.getItem("hour-9")) 
+console.log (localStorage.getItem("morninghour-9"))
+$("#morninghour-9 .description").val(localStorage.getItem("morninghour-9")) 
 
-console.log (localStorage.getItem("hour-10"))
-$("#hour-10 .description").val(localStorage.getItem("hour-10")) 
+console.log (localStorage.getItem("morninghour-10"))
+$("#morninghour-10 .description").val(localStorage.getItem("morninghour-10")) 
 
-console.log (localStorage.getItem("hour-11"))
-$("#hour-11 .description").val(localStorage.getItem("hour-11")) 
+console.log (localStorage.getItem("morninghour-11"))
+$("#morninghour-11 .description").val(localStorage.getItem("morninghour-11")) 
 
-console.log (localStorage.getItem("hour-12"))
-$("#hour-12 .description").val(localStorage.getItem("hour-12")) 
+console.log (localStorage.getItem("afterhour-12"))
+$("#afterhour-12 .description").val(localStorage.getItem("afterhour-12")) 
 
-console.log (localStorage.getItem("hour-1"))
-$("#hour-1 .description").val(localStorage.getItem("hour-1")) 
+console.log (localStorage.getItem("afterhour-1"))
+$("#afterhour-1 .description").val(localStorage.getItem("afterhour-1")) 
 
-console.log (localStorage.getItem("hour-2"))
-$("#hour-2 .description").val(localStorage.getItem("hour-2")) 
+console.log (localStorage.getItem("afterhour-2"))
+$("#afterhour-2 .description").val(localStorage.getItem("afterhour-2")) 
 
-console.log (localStorage.getItem("hour-3"))
-$("#hour-3 .description").val(localStorage.getItem("hour-3")) 
+console.log (localStorage.getItem("afterhour-3"))
+$("#afterhour-3 .description").val(localStorage.getItem("afterhour-3")) 
 
-console.log (localStorage.getItem("hour-4"))
-$("#hour-4 .description").val(localStorage.getItem("hour-4")) 
+console.log (localStorage.getItem("afterhour-4"))
+$("#afterhour-4 .description").val(localStorage.getItem("afterhour-4")) 
 
-console.log (localStorage.getItem("hour-5"))
-$("#hour-5 .description").val(localStorage.getItem("hour-5")) 
+console.log (localStorage.getItem("afterhour-5"))
+$("#afterhour-5 .description").val(localStorage.getItem("afterhour-5")) 
 
   
 
