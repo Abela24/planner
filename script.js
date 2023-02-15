@@ -14,7 +14,7 @@ $(document).ready(function(){
 
 
 
-//localStorage.getItem("hour-9")
+//connected to local storage by hour starting at hour-9 till 5 by using get item
 console.log (localStorage.getItem("hour-9"))
 $("#hour-9 .description").val(localStorage.getItem("hour-9")) 
 
@@ -62,9 +62,7 @@ Array.from(rows).forEach(row => {
     console.log (rowHour)
   }
   if (rowHour) {
-    // Compares row id to current hour and sets color accordingly
-    //var textarea = rowHour.querySelectorAll("textarea")
-    //console.log (textarea)
+    // Compares  the row_id to the current hour whch then  sets the color accordingly to the right hour
     if (currentHour == rowHour) {
       setColor(row, "red");
     } else if (currentHour < rowHour) {
